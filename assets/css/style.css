@@ -1,0 +1,39 @@
+.pace {
+    display: none;
+}
+
+.main-style {
+    min-height: 100vh;
+    background: url(../img/cover/cover-scrum-board.png) no-repeat fixed;
+    background-size: 360px;
+    background-position: right bottom;
+}
+#to_do_tasks{
+    overflow-y:scroll;height:500px;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#to_do_tasks::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+#in_progress_tasks{
+    overflow-y:scroll;height:500px;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+
+}
+#in_progress_tasks::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+
+}
+#done_tasks{
+    overflow-y:scroll;height:500px;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+
+}
+#done_tasks::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
